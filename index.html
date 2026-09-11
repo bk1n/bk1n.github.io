@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Ben King's CV</h1>
+        <ul>
+        <li>Email: bg.king [at] hotmail [dot] com</li>
+        <li>Location: London, UK</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/bgking">bgking</a></li>
+        <li>GitHub: <a href="https://github.com/bk1n">bk1n</a></li>
+        <li>Google Scholar: <a href="https://scholar.google.com/citations?user=uwYPu7oAAAAJ">uwYPu7oAAAAJ</a></li>
+        </ul>
+        <h1>Overview</h1>
+        <p>PhD computational biologist experienced in building end-to-end statistical and machine learning pipelines to generate biological insight from multi-omic and large-scale screening data for oncology drug development. Brings hands-on wet-lab experience to validate computational findings, most recently confirming a drug-response biomarker that is informing clinical trial stratification. Motivated by uncovering the mechanisms underlying drug response and predicting which patients will benefit, to accelerate the translation of preclinical discoveries into the clinic.</p>
+        <h1>Experience</h1>
+        <h2><strong>The University of Edinburgh</strong>, PhD Researcher in Computational Biology</h2>
+        <p>Edinburgh, UK</p>
+        <p>Sept 2021 – Mar 2026</p>
+        <p><em>Thesis: 'Preclinical discovery of biomarkers of response to a novel tyrosine kinase inhibitor using large-scale pharmacogenomic screens.'</em></p>
+        <ul>
+        <li>
+        <p>Identified ovarian clear cell carcinoma as a consistently sensitive subtype using a generalised linear mixed model combining two independent viability screens (GDSC, Oncolines; 1000+ cell lines), then nominated and confirmed ARID1A loss as the associated biomarker across public and in-house datasets.</p>
+        </li>
+        <li>
+        <p>Validated the association experimentally by generating isogenic CRISPR-Cas9 knockout lines and profiling them by RNA-seq and RPPA; analysed the resulting data (Nextflow, DESeq2, limma, GSEA, STRINGdb) to establish the mechanism underlying sensitivity. Findings will inform patient stratification for upcoming clinical trials (manuscript in preparation).</p>
+        </li>
+        <li>
+        <p>Defined a bespoke drug-response metric to separate specific cytostatic drug activity from non-specific cytotoxicity in large-scale viability screens, embedded in a reproducible end-to-end concentration-response modelling pipeline in R (<a href="https://github.com/bk1n/nxp900-viability">repo</a>).</p>
+        </li>
+        <li>
+        <p>Designed and coordinated follow-up experiments with internal and external collaborators (including <em>in vivo</em> work).</p>
+        </li>
+        <li>
+        <p>Showed through cross-validated benchmarking (Python, scikit-learn, Linux HPC) that machine learning models trained on multi-omic data for response prediction offered no gain over a subtype baseline, redirecting discovery efforts.</p>
+        </li>
+        </ul>
+        <h2><strong>Accenture Labs</strong>, Machine Learning Research Intern</h2>
+        <p>Dublin, Ireland</p>
+        <p>Sept 2022 – Mar 2023</p>
+        <p><em>Developed, fine-tuned, and evaluated transformer model architectures for protein-drug interaction prediction using SMILES and protein sequences.</em></p>
+        <ul>
+        <li>
+        <p>Developed a distributed fine-tuning and cross-validation framework (PyTorch, Weights &amp; Biases; <a href="https://github.com/bk1n/bertsheep">repo</a>) over large chemical databases (ChEMBL, PDBbind) using standard cheminformatics tooling (RDKit) and collaborated with the research team to optimise model architectures.</p>
+        </li>
+        <li>
+        <p>Identified latent space biases that produced overly optimistic evaluation performance and weak generalisation in protein-drug interaction models.</p>
+        </li>
+        <li>
+        <p>Synthesised the literature and research findings into best-practice guidelines and presented them to cross-functional research teams.</p>
+        </li>
+        </ul>
+        <h2><strong>Imperial College London</strong>, MRes Researcher in Cancer Informatics</h2>
+        <p>London, UK</p>
+        <p>Sept 2020 – Aug 2021</p>
+        <p><em>Radiological imaging and methylation biomarker research in gynaecological cancer.</em></p>
+        <ul>
+        <li>
+        <p>Evaluated the diagnostic performance of quantitative imaging metrics from FDG-PET/CT, FEC-PET/CT, and DW-MRI against visual assessment for lymph node metastasis detection in 112 gynaecological cancer patients, using a leave-one-out cross validation method and bootstrapped uncertainty estimation, providing guidance for diagnosing clinicians (published King et al., 2025, EJNMMI).</p>
+        </li>
+        <li>
+        <p>Identified differential methylation of satellite regions as candidate ovarian cancer risk biomarkers from a blood-based RRBS dataset of 478 patients, using logistic regression.</p>
+        </li>
+        </ul>
+        <h2><strong>The Alan Turing Institute &amp; Ignota Labs</strong>, Researcher</h2>
+        <p>London, UK</p>
+        <p>Dec 2023</p>
+        <p><em>Investigated deep learning-based approaches for assessing cardiac toxicity in a Data Study Group (DSG): a collaborative hackathon-style research week.</em></p>
+        <ul>
+        <li>
+        <p>Collaborated with a team of interdisciplinary researchers, evaluating graph- and transformer-based models with different molecular representations and train-test splitting strategies during an intensive 72-hour Data Study Group.</p>
+        </li>
+        <li>
+        <p>Co-authored a <a href="https://www.turing.ac.uk/sites/default/files/2024-10/turing_dsg_report_dec_2023_ignota_labs_final_publish_opt.pdf">research report</a> and presented findings to 100+ researchers and stakeholders, informing the research strategy at the biotech start-up Ignota Labs.</p>
+        </li>
+        </ul>
+        <h2><strong>The Carpentries</strong>, Instructor</h2>
+        <p>Edinburgh, UK</p>
+        <p>Sept 2021 – June 2024</p>
+        <p><em>Taught "</em>High Dimensional Statistics in Python &amp; R<em>" and "</em>Machine Learning with Python<em>" courses to 200+ undergraduate and postgraduate students.</em></p>
+        <h2><strong>GlaxoSmithKline</strong>, Medical Affairs Intern</h2>
+        <p>Brentford, London, UK</p>
+        <p>June 2019 – Dec 2019</p>
+        <h1>Skills</h1>
+        <p><strong>Programming:</strong> Python, R, Linux, Git, HPC cluster computing, Nextflow, AI-assisted development (Claude Code)</p>
+        <p><strong>Statistics:</strong> Dose-response modelling, mixed effects and generalised linear models, hypothesis testing, bootstrapping</p>
+        <p><strong>Bioinformatics:</strong> Bulk RNA-seq (nf-core/rnaseq, Nextflow), differential expression analysis (DESeq2, edgeR, limma), network analysis (STRINGdb), pathway enrichment (GSEA, ssGSEA, clusterProfiler), multi-omics integration (mixOmics, PLS), dimensionality reduction and clustering (PCA, UMAP, tSNE, hierarchical, k-means)</p>
+        <p><strong>Machine Learning:</strong> PyTorch, scikit-learn, Hugging Face, Weights &amp; Biases, RDKit, interpretability methods (SHAP, LIME), cross-validation strategies</p>
+        <p><strong>Experimental Biology:</strong> Cell culture, CRISPR-Cas9 knockouts, Western blot, viability assays, RNA-seq and RPPA sample preparation</p>
+        <h1>Education</h1>
+        <h2><strong>University of Edinburgh</strong>, Precision Medicine</h2>
+        <p><strong>PhD</strong></p>
+        <p>Edinburgh, UK</p>
+        <p>Sept 2021 – Mar 2026</p>
+        <h2><strong>Imperial College London</strong>, Cancer Informatics (Distinction)</h2>
+        <p><strong>MRes</strong></p>
+        <p>London, UK</p>
+        <p>Sept 2020 – Aug 2021</p>
+        <h2><strong>University of Leeds</strong>, Medical Sciences (First Class Honours)</h2>
+        <p><strong>BSc</strong></p>
+        <p>Leeds, UK</p>
+        <p>Sept 2017 – July 2020</p>
+        <h1>Publications</h1>
+        <h2><strong>ARID1A loss sensitises ovarian clear cell carcinoma to the SRC/YES1 inhibitor NXP900 (manuscript in preparation)</strong></h2>
+        <p><strong><em>Ben G. King</em></strong>, et al., In preparation</p>
+        <h2><strong>Diagnostic performance of quantitative measures from [18F]-FDG PET/CT, [18F]-FEC PET/CT, and DW-MRI in the detection of lymph node metastases in endometrial and cervical cancer: data from the MAPPING study</strong></h2>
+        <p>Nov 2025</p>
+        <p><strong><em>Ben G. King</em></strong>, Tara D. Barwick, Andrea G. Rockall, et al., European Journal of Nuclear Medicine &amp; Molecular Imaging (<a href="https://doi.org/10.1007/s00259-025-07587-3">10.1007/s00259-025-07587-3</a>)</p>
+        <h2><strong>Exploring Trisubstituted adenine derivatives as adenosine A1 receptor ligands with antagonist activity: Synthesis, biological evaluation and molecular modelling</strong></h2>
+        <p>June 2025</p>
+        <p>Córdoba-Gómez et al., Bioorganic Chemistry (<a href="https://doi.org/10.1016/j.bioorg.2025.108395">10.1016/j.bioorg.2025.108395</a>)</p>
+        <h2><strong>The SRC family kinase inhibitor NXP900 demonstrates potent antitumor activity in squamous cell carcinomas</strong></h2>
+        <p>Aug 2024</p>
+        <p>Dash et al., Journal of Biological Chemistry (<a href="https://doi.org/10.1016/j.jbc.2024.107615">10.1016/j.jbc.2024.107615</a>)</p>
+    </article>
+</body>
+
+</html>
